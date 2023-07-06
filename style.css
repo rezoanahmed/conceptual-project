@@ -30,7 +30,7 @@ header{
     display: flex;
     height: 100vh;
     background: url(images/background.png), linear-gradient(45deg, black, grey);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
@@ -57,8 +57,30 @@ header{
 .text button:hover{
     background-color: transparent;
     border: 1px solid red;
+    color: red;
     transition: .3s ease-in-out;
 }
 .image img{
     width: 300px;
+}
+/* about */
+.about{
+    display: 70vh;
+    padding: 10px;
+}
+#h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.details{
+    color: black;
 }
