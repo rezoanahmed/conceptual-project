@@ -3,8 +3,12 @@
     padding: 0;
     font-family: sans-serif;
 }
+/* navbar */
 .navbar{
     background-color: #262626;
+    box-shadow: 2px 2px 5px;
+    top: 0;
+    position: sticky;
 }
 header{
     display: flex;
@@ -20,4 +24,41 @@ header{
     color: #fff;
     margin-left: 20px;
     font-size: 18px;
+}
+/* main  */
+.main{
+    display: flex;
+    height: 100vh;
+    background: url(images/background.png), linear-gradient(45deg, black, grey);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.text{
+    color: #fff;
+}
+.text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.text button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+.text button:hover{
+    background-color: transparent;
+    border: 1px solid red;
+    transition: .3s ease-in-out;
+}
+.image img{
+    width: 300px;
 }
